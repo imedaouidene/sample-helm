@@ -8,7 +8,7 @@ image:
   repository: docker.io/imedaouidene/mvn-tekton
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: $(tasks.buildah.results.IMAGE_DIGEST)
+  tag: 1.0
 
 imagePullSecrets: []
 nameOverride: ""
